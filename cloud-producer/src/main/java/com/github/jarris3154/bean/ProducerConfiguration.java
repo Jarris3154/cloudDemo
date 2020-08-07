@@ -1,8 +1,6 @@
 package com.github.jarris3154.bean;
 
-import org.springframework.stereotype.Component;
 
-@Component
 public class ProducerConfiguration {
     private int maximum;
     private int minimum;
