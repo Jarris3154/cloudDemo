@@ -3,7 +3,7 @@ package com.github.jarris3154.bean;
 import org.springframework.stereotype.Component;
 
 @Component
-public class ConsumerConfiguration {
+public class ProducerConfiguration {
     private int maximum;
     private int minimum;
 
@@ -23,7 +23,7 @@ public class ConsumerConfiguration {
         this.minimum = minimum;
     }
 
-    public ConsumerConfiguration(int maximum, int minimum) {
+    public ProducerConfiguration(int maximum, int minimum) {
         super();
         this.maximum = maximum;
         this.minimum = minimum;
