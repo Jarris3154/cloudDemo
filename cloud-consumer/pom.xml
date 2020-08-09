@@ -8,9 +8,8 @@
 		<version>0.0.1-SNAPSHOT</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.github.jarris3154</groupId>
+
 	<artifactId>cloud-consumer</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<name>cloud-consumer</name>
 	<description>Cloud Consumer Spring Boot</description>
 
@@ -31,6 +30,10 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-config</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 
 		<dependency>

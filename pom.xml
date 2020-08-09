@@ -13,13 +13,14 @@
     <artifactId>cloud-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>limits-sevice</name>
+    <name>cloud-demo</name>
     <description>Cloud Consumer Spring Boot</description>
 
     <modules>
         <module>cloud-config-server</module>
         <module>cloud-consumer</module>
         <module>cloud-producer</module>
+        <module>cloud-eureka-server</module>
     </modules>
 
     <properties>
