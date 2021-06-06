@@ -1,1 +1,1 @@
-# cloudDemo
+# spring-cloud services
