@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cloud-common</artifactId>
+    <artifactId>cloud-core</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -18,12 +18,22 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <groupId>com.github.jarris3154</groupId>
+            <artifactId>cloud-base</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
+
         <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+        </dependency>
+
+
     </dependencies>
+
 </project>

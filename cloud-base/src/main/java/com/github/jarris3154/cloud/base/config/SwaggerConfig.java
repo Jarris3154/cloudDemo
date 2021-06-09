@@ -1,4 +1,4 @@
-package com.github.jarris3154.base.config;
+package com.github.jarris3154.cloud.base.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

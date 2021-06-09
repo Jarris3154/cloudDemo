@@ -1,0 +1,13 @@
+server:
+  port: 8111
+spring:
+  profiles:
+    active: dev
+  application:
+    name: cloud-core
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://39.99.140.203:3306/test?characterEncoding=utf8
+    username: root
+    password: root
